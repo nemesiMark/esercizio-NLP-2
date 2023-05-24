@@ -49,7 +49,7 @@ def main():
             pipe = joblib.load('pipeline_classifierTF_IDF.pkl')
             
             if word == "":
-                st.warning("Enter the text: ")
+                st.warning("Enter the text")
             else:
             
                 fake = []
